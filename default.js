@@ -31,3 +31,16 @@ function addingNumber(num1, num2 = 20) {
 }
 const resultFour = addingNumber(25);
 console.log(resultFour);
+
+function createUser(name, age = 18) {
+    const user = {};
+
+    user.name = name;
+
+    user.age = age;
+
+    return user;
+}
+
+const output = createUser("Karim Uddin", 20);
+console.log(output);
